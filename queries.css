@@ -1,0 +1,133 @@
+/********************************/
+/*     RESPONSIVE DESIGN        */
+/*******************************/
+
+@media (max-width: 700px) {
+  .calculator {
+    border-radius: 0rem;
+  }
+
+  .input-text {
+    border-radius: 0rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .input-text {
+    width: 40rem;
+  }
+
+  .equal-btn {
+    width: 8rem;
+    height: 3.4rem;
+  }
+
+  html {
+    font-size: 96%;
+  }
+}
+
+@media (max-width: 570px) {
+  .input-text {
+    width: 36rem;
+  }
+
+  .row {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .mobile-none {
+    display: none;
+  }
+
+  .input-text {
+    width: 32rem;
+  }
+
+  /* html {
+    font-size: 88%;
+  } */
+}
+
+@media (max-width: 430px) {
+  .input-text {
+    width: 30rem;
+    padding-bottom: 0rem;
+    font-size: 3.2rem;
+  }
+
+  .input-label {
+    background-color: black;
+    height: 46vh;
+  }
+
+  body {
+    /* height: 114vh; */
+    /* background-color: black; */
+    background-color: #343a40;
+  }
+  .name-label {
+    padding-top: 2rem;
+  }
+
+  .btn {
+    height: 5.2rem;
+    width: 3.4rem;
+  }
+
+  .equal-btn {
+    height: 4rem;
+    width: 8rem;
+  }
+
+  .input-text {
+    height: 30vh;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+  .calculator {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 88%;
+  }
+
+  body {
+    /* height: 114vh; */
+    background-color: #343a40;
+  }
+
+  .calculator {
+    box-shadow: none;
+  }
+
+  .btn {
+    height: 5.2rem;
+    width: 3rem;
+  }
+
+  .equal-btn {
+    height: 4rem;
+    width: 8rem;
+  }
+
+  /* 
+  .input-text {
+    height: 30vh;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  } */
+}
